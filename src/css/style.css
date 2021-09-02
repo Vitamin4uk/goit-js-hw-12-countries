@@ -1,0 +1,70 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-container {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.input {
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(61, 59, 59);
+  border-radius: 7px;
+  border-color: lightgray;
+  outline: none;
+}
+
+.output-container {
+  padding: 20px;
+}
+
+.countries-list {
+  margin-left: 100px;
+  list-style: circle;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.countries-list li {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 60px;
+  text-align: center;
+}
+
+.wrap-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  margin-top: 60px;
+  list-style: none;
+  font-size: 34px;
+}
+
+.info li + li {
+  margin-top: 40px;
+}
+
+.info .title {
+  font-weight: 700;
+}
+
+.languages {
+  list-style-type: disc;
+}
+
+.languages li {
+  font-size: 30px;
+}
+
+.languages li + li {
+  margin-top: 10px;
+}
